@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.emf.ecp.view.model.provider.xmi.file">
+<file filePath="viewmodels/SocketGroups.view"/>
+
+<file
+      filePath="viewmodels/RemoteSockets_Detail.view">
+   <filter
+         key="detail"
+         value="true">
+   </filter>
+</file>
+<file
+      filePath="viewmodels/RemoteSocketDefault.view">
+   <filter
+         key="it.naturtalent.technik.viewmodel.key1"
+         value="it.naturtalent.technik.viewmodel.value1">
+   </filter>
+</file>
+
+
+<file
+      filePath="viewmodels/RemoteSocket.view">
+</file>
+<file filePath="viewmodels/RemoteSockets.view"/>
+
+
+
+
+
+
+<file filePath="viewmodels/SocketGroup.view"/>
+
+   </extension>
+
+</plugin>

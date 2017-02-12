@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ASCII"?>
+<org.eclipse.emf.ecp.view.model:View xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:org.eclipse.emf.ecp.view.model="http://org/eclipse/emf/ecp/view/model/170" xmlns:org.eclipse.emf.ecp.view.table.model="http://org/eclipse/emf/ecp/view/table/model/150" xmi:id="_PDCJYNXwEeaHe60CZCtbKQ" name="SocketGroup" ecorePath="/it.naturtalent.technik.model/model/ntdata.ecore">
+  <rootEClass href="http://www.example.org/wifi#//SocketGroup"/>
+  <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_PDO9sNXwEeaHe60CZCtbKQ" name="Control name">
+    <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_PDO9sdXwEeaHe60CZCtbKQ">
+      <domainModelEFeature xsi:type="ecore:EAttribute" href="http://www.example.org/wifi#//SocketGroup/name"/>
+    </domainModelReference>
+  </children>
+  <children xsi:type="org.eclipse.emf.ecp.view.table.model:TableControl" xmi:id="_FxJbENnREeaeQow4_AA3Ow">
+    <domainModelReference xsi:type="org.eclipse.emf.ecp.view.table.model:TableDomainModelReference" xmi:id="_NOY1YNqlEea0GMG4npw3Mw">
+      <columnDomainModelReferences xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_4VaUAdqnEea0GMG4npw3Mw">
+        <domainModelEFeature xsi:type="ecore:EAttribute" href="http://www.example.org/wifi#//RemoteSocket/name"/>
+      </columnDomainModelReferences>
+      <domainModelReference xsi:type="org.eclipse.emf.ecp.view.table.model:TableDomainModelReference" xmi:id="_NOY1YdqlEea0GMG4npw3Mw">
+        <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_NOY1YtqlEea0GMG4npw3Mw">
+          <domainModelEFeature xsi:type="ecore:EReference" href="http://www.example.org/wifi#//SocketGroup/Members"/>
+        </domainModelReference>
+      </domainModelReference>
+    </domainModelReference>
+  </children>
+</org.eclipse.emf.ecp.view.model:View>

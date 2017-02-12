@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ASCII"?>
+<org.eclipse.emf.ecp.view.model:View xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:org.eclipse.emf.ecp.view.model="http://org/eclipse/emf/ecp/view/model/170" xmi:id="_10UvINOHEea8YLvrMmi7kw" name="RemoteSocket" ecorePath="/it.naturtalent.technik.model/model/ntdata.ecore">
+  <rootEClass href="http://www.example.org/wifi#//RemoteSocket"/>
+  <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_11TmktOHEea8YLvrMmi7kw" name="Control name">
+    <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_11Tmk9OHEea8YLvrMmi7kw">
+      <domainModelEFeature xsi:type="ecore:EAttribute" href="http://www.example.org/wifi#//RemoteSocket/name"/>
+    </domainModelReference>
+  </children>
+  <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_11TmlNOHEea8YLvrMmi7kw" name="Control type">
+    <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_11TmldOHEea8YLvrMmi7kw">
+      <domainModelEFeature xsi:type="ecore:EAttribute" href="http://www.example.org/wifi#//RemoteSocket/type"/>
+    </domainModelReference>
+  </children>
+  <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_11TmltOHEea8YLvrMmi7kw" name="Control houseCode">
+    <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_11Tml9OHEea8YLvrMmi7kw">
+      <domainModelEFeature xsi:type="ecore:EAttribute" href="http://www.example.org/wifi#//RemoteSocket/houseCode"/>
+    </domainModelReference>
+  </children>
+  <children xsi:type="org.eclipse.emf.ecp.view.model:Control" xmi:id="_11TmmNOHEea8YLvrMmi7kw" name="Control receiverCode">
+    <domainModelReference xsi:type="org.eclipse.emf.ecp.view.model:FeaturePathDomainModelReference" xmi:id="_11TmmdOHEea8YLvrMmi7kw">
+      <domainModelEFeature xsi:type="ecore:EAttribute" href="http://www.example.org/wifi#//RemoteSocket/receiverCode"/>
+    </domainModelReference>
+  </children>
+</org.eclipse.emf.ecp.view.model:View>
