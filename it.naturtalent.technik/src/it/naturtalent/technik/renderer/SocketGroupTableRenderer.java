@@ -60,13 +60,13 @@ public class SocketGroupTableRenderer extends TableControlDetailDialogSWTRendere
 	{
 		Control control = super.renderControl(gridCell, parent);
 		
-		TableColumn[] columns = getTableViewer().getTable().getColumns();
+		TableColumn[] columns = ((TableViewer)getTableViewer()).getTable().getColumns();
 
 		// Validation-Column entfernen
 		columns[0].dispose();
 				
 		// Celleditorsupport zuruecksetzen
-		TableViewerColumn[]tableViewerColumns = getTableViewerColumns(getTableViewer());
+		TableViewerColumn[]tableViewerColumns = getTableViewerColumns((TableViewer)getTableViewer());
 		for(TableViewerColumn tableViewerColumn : tableViewerColumns)	
 			tableViewerColumn.setEditingSupport(null);
 		
