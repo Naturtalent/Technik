@@ -10,7 +10,7 @@ import org.eclipse.e4.ui.workbench.UIEvents;
 import org.eclipse.e4.ui.workbench.modeling.ESelectionService;
 import org.osgi.service.event.Event;
 
-import it.naturtalent.e4.application.IPreferenceRegistry;
+import it.naturtalent.application.IPreferenceRegistry;
 
 
 public class TechnikAddon 

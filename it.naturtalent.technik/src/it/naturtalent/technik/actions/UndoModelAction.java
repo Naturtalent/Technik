@@ -40,12 +40,13 @@ public class UndoModelAction extends Action
 			// undo 
 			domain.getCommandStack().undo();
 			setEnabled(domain.getCommandStack().canUndo());		
-			
+					
 			if(!domain.getCommandStack().canUndo())
 			{
 				ECPHandlerHelper.saveProject(ecpProject);
 				eventBroker.send(RemoteSocketView.REMOTESOCKET_MODELEVENT, "Model last undo");
 			}
+		
 		}
 	}
 	

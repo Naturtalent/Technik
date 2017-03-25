@@ -8,8 +8,8 @@ import org.eclipse.swt.widgets.Composite;
 import org.eclipse.swt.widgets.Text;
 import org.osgi.service.prefs.BackingStoreException;
 
-import it.naturtalent.e4.application.AbstractPreferenceAdapter;
-import it.naturtalent.e4.application.IPreferenceNode;
+import it.naturtalent.application.AbstractPreferenceAdapter;
+import it.naturtalent.application.IPreferenceNode;
 
 public class SocketsPreferencesAdapter extends AbstractPreferenceAdapter
 {
